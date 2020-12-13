@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="727.0">sample.Main</node>
+    <node x="0.0" y="558.0">Shared.Sale</node>
+    <node x="0.0" y="389.0">sample.AutorizationController</node>
+    <node x="304.0" y="0.0">sample.AdminPaneController</node>
+    <node x="604.0" y="0.0">Shared.User</node>
+    <node x="265.0" y="727.0">Shared.Phone</node>
+    <node x="496.0" y="558.0">sample.UserPaneController</node>
+    <node x="0.0" y="0.0">sample.ReportPaneController</node>
+    <node x="185.0" y="558.0">sample.AnalysisPaneController</node>
+    <node x="450.0" y="727.0">Shared.Period</node>
+    <node x="612.0" y="389.0">sample.Client</node>
+    <node x="311.0" y="389.0">sample.AnalystPaneController</node>
+    <node x="636.0" y="727.0">sample.IConnection</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.8" x="612.8571428571427" y="441.42857142857133" />
+  <SelectedNodes>
+    <node>sample.AdminPaneController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

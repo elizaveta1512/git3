@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #515151;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserPaneController">
+   <children>
+      <TableView fx:id="table" layoutX="36.0" layoutY="66.0" prefHeight="619.0" prefWidth="617.0">
+        <columns>
+          <TableColumn fx:id="labelColumn" prefWidth="179.0" text="Услуга" />
+          <TableColumn fx:id="modelColumn" prefWidth="238.0" text="Тип" />
+            <TableColumn fx:id="priceColumn" prefWidth="199.0" text="Стоимость ( $ )" />
+        </columns>
+      </TableView>
+      <Label layoutX="36.0" layoutY="26.0" prefHeight="17.0" prefWidth="274.0" text="Наши услуги" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderBtn" layoutX="869.0" layoutY="36.0" mnemonicParsing="false" onAction="#OrderBtnClick" text="Записаться">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitBtn" layoutX="869.0" layoutY="638.0" mnemonicParsing="false" onAction="#ExitBtnClick" prefHeight="40.0" prefWidth="116.0" text="Выход">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
